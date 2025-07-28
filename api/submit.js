@@ -10,7 +10,7 @@ cloudinary.config({
 });
 
 // Mongo URI from env
-const MONGO_URI = process.env.MONGO_URI || "your-mongodb-uri-here";
+const MONGO_URI ="mongodb+srv://erarjunsingh32085:123@cluster0.zvimsjg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Mongoose schema
 const standeeOrderSchema = new mongoose.Schema({
